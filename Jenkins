@@ -34,3 +34,5 @@ to include a connection to port as exception under firewall, : sudo ufw allow 80
 
 username : admin
 password: santosh96
+
+jenins data directory: /var/lib/jenkins (it should not be full)
