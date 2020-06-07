@@ -13,6 +13,10 @@ sudo apt-get install jenkins
 start jenkins: sudo systemctl start jenkins
 check status of jenkins: sudo systemctl status jenkins
 
+uninstall jenkins:
+stop jenkins: sudo systemctl jenkins stop
+uninstall jenkins: sudo apt-get remove --purge jenkins
+
 in path /etc/rc.d/init.d/jenkins, 
 we can 
 add jenkins to firewall exception, if firewall is on.
