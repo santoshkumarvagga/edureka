@@ -32,3 +32,5 @@ to disable firewall : sudo ufw disable
 to enable firewall: sudo ufw enable
 to include a connection to port as exception under firewall, : sudo ufw allow 8080
 
+username : admin
+password: santosh96
