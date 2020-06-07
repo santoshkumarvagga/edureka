@@ -13,7 +13,7 @@ sudo apt-get install jenkins
 start jenkins: sudo systemctl jenkins start
 check status of jenkins: sudo systemctl status jenkins
 
-See jenkins working at default http port : 8080 (i,e. https://localhost:8080)
+see jenkins working at default http port : 8080 (i,e. https://localhost:8080)
 we can chnage/configure settings of jenkins in /etc/default/jenkins
 
 uninstall jenkins:
@@ -27,3 +27,8 @@ in path /etc/default/jenkins.,
 we can 
 add jenkins to firewall exception, if firewall is on.
 change port number.
+
+to disable firewall : sudo ufw disable
+to enable firewall: sudo ufw enable
+to include a connection to port as exception under firewall, : sudo ufw allow 8080
+
