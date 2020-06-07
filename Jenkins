@@ -13,6 +13,8 @@ sudo apt-get install jenkins
 start jenkins: sudo systemctl jenkins start
 check status of jenkins: sudo systemctl status jenkins
 
+See jenkins working at http port : 8080 (i,e. https://localhost:8080 )
+
 uninstall jenkins:
 stop jenkins: sudo systemctl jenkins stop
 uninstall jenkins: sudo apt-get remove --purge jenkins
