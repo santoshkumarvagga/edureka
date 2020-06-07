@@ -10,7 +10,7 @@ sudo sh -c 'echo deb https://pkg.jenkins.io/debian-stable binary/ > \
 sudo apt-get update
 sudo apt-get install jenkins
 
-start jenkins: sudo systemctl start jenkins
+start jenkins: sudo systemctl jenkins start
 check status of jenkins: sudo systemctl status jenkins
 
 uninstall jenkins:
