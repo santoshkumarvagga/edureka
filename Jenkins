@@ -37,3 +37,5 @@ password: santosh96
 port: 8082
 
 jenins data directory(JENKINS_HOME): /var/lib/jenkins (it should not be full)
+
+To enable email service after every build - https://nozaki.me/roller/kyle/entry/articles-jenkins-email
