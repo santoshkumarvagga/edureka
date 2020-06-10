@@ -51,3 +51,7 @@ The advantage of this process is in a multideveloper environemnt, suppose if a c
 
 This entire process is automated one.
 
+Setting up Jenkins on Tomcat:
+Jenkins can be run on a standalone server(Local PC), but since many web apps run on a single common server, it is better if we have jenkins too there. One such Server is Tomcat.
+Once Tomcat installed, its http port by default will be 8080, same as Jenkins. So change Jenkins port (java -jar jenkins.war --httpPort=9090)
+Any job setup on tomcat jenkins(localhost:8080/jenkins) or standalone jenkins(localhost:9090), will be synced in one another interface.
