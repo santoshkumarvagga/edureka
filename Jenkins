@@ -39,3 +39,11 @@ port: 8082
 jenins data directory(JENKINS_HOME): /var/lib/jenkins (it should not be full)
 
 To enable email service after every build - https://nozaki.me/roller/kyle/entry/articles-jenkins-email
+
+Jenkins: 
+* Java application - hence platform independent.
+* Used for CI/CD - Continous Integration and Continous Delivery.
+
+* Continous Integration - As soon as developers commit their code to a shared repository, jenkins wioll take that latest code and trigers a build  for it. Build Notification is sent via email for respective developers saying the status and log of the build.
+The advantage of this process is in a multideveloper environemnt, suppose if a commit has a bug in build, then build notification says that build has failed with ots logs. So that, developers can just revoke that commit and re work on part of code to fix the bug. Hence it resolves the issue of which developer has implanted bug in shared code, which part of code has been failed.
+
