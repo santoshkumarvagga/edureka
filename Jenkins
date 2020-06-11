@@ -58,4 +58,4 @@ Any job setup on tomcat jenkins(localhost:8080/jenkins) or standalone jenkins(lo
 
 Changing jenkins home directory: Since jenkins by default will be installed in users's profile, which has other important files. If number of jobs, Plugins, Logs, configuration increase so that this drive space could become criticall to manage later.
 Hence it is suggested to change home folder of jenkins other than in default user profile. For this, just create a new folder in some location, and copy all files in .jenkins folder to this new folder. then change the jenkins home folder path in localhost:9090/systeminfo
-and this updated path will appear on top row of Manage Jenkins Page.
+and this updated path will appear on top row of Manage Jenkins Page. In ubuntu, add path(export path=----) in .bash_profile file in order to set path permanently.
