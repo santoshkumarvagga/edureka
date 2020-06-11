@@ -56,6 +56,6 @@ Jenkins can be run on a standalone server(Local PC), but since many web apps run
 Once Tomcat installed, its http port by default will be 8080, same as Jenkins. So change Jenkins port (java -jar jenkins.war --httpPort=9090)
 Any job setup on tomcat jenkins(localhost:8080/jenkins) or standalone jenkins(localhost:9090), will be synced in one another interface.
 
-Changing jenkins home directory: Since jenkins by default will be installed in users's profile, which has other important files. If number of jobs increase so that this drive space could become criticall to manage later.
+Changing jenkins home directory: Since jenkins by default will be installed in users's profile, which has other important files. If number of jobs, Plugins, Logs, configuration increase so that this drive space could become criticall to manage later.
 Hence it is suggested to change home folder of jenkins other than in default user profile. For this, just create a new folder in some location, and copy all files in .jenkins folder to this new folder. then change the jenkins home folder path in localhost:9090/systeminfo
 and this updated path will appear on top row of Manage Jenkins Page.
