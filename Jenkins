@@ -70,3 +70,6 @@ Hence it is suggested to change home folder of jenkins other than in default use
 and this updated path will appear on top row of Manage Jenkins Page. In ubuntu, add path(export path=----) in .bash_profile file in order to set path permanently.
 
 Building Jenkins Pipeline - https://opensource.com/article/19/9/intro-building-cicd-pipelines-jenkins
+
+To access jenkins commands cli reference - localhost:8080/cli
+
