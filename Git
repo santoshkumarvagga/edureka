@@ -6,11 +6,25 @@ NOTE: The project should be pulled via SSH Keys, not on Https. from github UI.
 2) Add private key to ssh agent via ssh-add ~/.ssh/id_rsa
 3) Add public key to Github list of SSH keys (copy content of id_rsa.pub to new ssh key entry in github acc)
 
+
 Thats it!!
 
+More: https://stackoverflow.com/questions/8588768/how-do-i-avoid-the-specification-of-the-username-and-password-at-every-git-push
 
-Clone your github project via SSH KEYS and start pushing, pulling without annoying username and passwords.
 
+4) Clone your github project via SSH KEYS (git+ssh://git@github.com/username/reponame.git) and start pushing, pulling without annoying username and passwords.
+
+5) If you have done the steps above and are still getting the password prompt, make sure your repo URL is in the form
+
+git+ssh://git@github.com/username/reponame.git
+as opposed to
+https://github.com/username/reponame.git
+
+To see your repo URL, run:
+git remote show origin
+
+You can change the URL with:
+git remote set-url origin git+ssh://git@github.com/username/reponame.git
 
 username: santoshkumarvagga
 password: 1mv13cs096
