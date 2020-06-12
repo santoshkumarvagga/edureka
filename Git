@@ -2,7 +2,7 @@ Adding ssh key to github acc prevents developer entering github username and git
 
 NOTE: The project should be pulled via SSH Keys, not on Https. from github UI.
 
-1) First Look for existing keys(private and public keys) in ~/.ssh/
+1) First Look for existing keys(private and public keys) in ~/.ssh/, if no keys create using "ssh-keygen -t rsa -b 4096 -C "your_email@example.com""
 2) Add private key to ssh agent via ssh-add ~/.ssh/id_rsa
 3) Add public key to Github list of SSH keys (copy content of id_rsa.pub to new ssh key entry in github acc)
 
