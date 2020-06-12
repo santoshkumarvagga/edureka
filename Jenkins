@@ -1,3 +1,5 @@
+Basic linux command cheat sheet: https://opensource.com/sites/default/files/gated-content/cheat_sheet_linux_common_commands.pdf
+
 Pre-requisite : Java should be pre-installed. 
 Java installation commands: 
 
@@ -30,7 +32,7 @@ uninstall jenkins: sudo apt-get remove --purge jenkins
 restart jenkins:
 sudo systemctl jenkins restart
 
-in path /etc/default/jenkins., 
+in path /etc/default/jenkins., https://opensource.com/sites/default/files/gated-content/cheat_sheet_linux_common_commands.pdf
 we can 
 add jenkins to firewall exception, if firewall is on.
 change port number.
