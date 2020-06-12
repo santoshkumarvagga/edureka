@@ -3,7 +3,7 @@ def print_squares():
 	for i in range(0, 10, 2):
 		print(i*i)
 		print('now', i+2)
-	print("Stopped printing nums")
+	print("Stopped printing nums upto 9+1")
 
 
 print_squares()
