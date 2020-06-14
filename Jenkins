@@ -75,5 +75,6 @@ To access jenkins commands cli reference - localhost:8080/cli
 
 To setup a Delivery pipeline : 
 1) chain required jobs: with upstream and downstream jobs
-2) install delivery pipeline plugin
+2) install "delivery pipeline plugin"
 
+"
