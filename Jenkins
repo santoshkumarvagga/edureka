@@ -92,5 +92,7 @@ Blue Ocean - New user interface for jenkins and provides an interacive view for 
 Install Blue Ocean Plugin. Restart jenkins. see OPEN Blue Ocean menu.
 To check version of jenkins, see at bottom right corner of the jenkins screen.
 
+Triggering build via email - needs Plugin : Poll Mailbox trigger. set this option while adding job.
+
 
 
