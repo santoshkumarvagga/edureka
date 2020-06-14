@@ -86,3 +86,11 @@ To setup a Build pipeline:
 3) Create a new view from jenkins dashboard, view type - Build pipeline view
 4) Go to Pipeline section - give initial job name in chained jobs. and OK.
 
+CATLIGHT - application that notifies status of each build to developers by sitting at one end of their screen.
+
+Blue Ocean - New user interface for jenkins and provides an interacive view for jenkins pipeline.(jenkins ver 2.7+)
+Install Blue Ocean Plugin. Restart jenkins. see OPEN Blue Ocean menu.
+To check version of jenkins, see at bottom right corner of the jenkins screen.
+
+
+
