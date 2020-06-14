@@ -80,4 +80,9 @@ To setup a Delivery pipeline :
 4) Go to Pipeline section - give initial job name in chained jobs. and OK.
 5) Go for Edit view for options to a view.(like to see total buils time, to run some builds manually.etc)
 
+To setup a Build pipeline:
+1) chain required jobs: with upstream and downstream jobs
+2) Install "Build Pipeline Plugin"
+3) Create a new view from jenkins dashboard, view type - Build pipeline view
+4) Go to Pipeline section - give initial job name in chained jobs. and OK.
 
