@@ -63,6 +63,10 @@ i,e. Once Jenkins Polls the changes from VCS(like git), it will build it. The re
 Here, We deployed artifacts two times(one for testing and one for Production server).
 
 Plugin needed for Automated Deploymnt - "Deploy to container"
+This Plugin takes a war file and deploys it to a running remote applications server like Tomcat or Glassfish.
+
+During setting up a new job, we have to select Post build action as Deploy war/ear file to a container option. 
+Here, we have to specify war file name/patterns to look up in our workspace directory.
 
 This entire process is automated one.
 
