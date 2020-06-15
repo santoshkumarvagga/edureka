@@ -62,6 +62,8 @@ The advantage of this process is in a multideveloper environemnt, suppose if a c
 i,e. Once Jenkins Polls the changes from VCS(like git), it will build it. The result will be Project artifacts(like .war files). These Artifacts are later Deployed for Testing Environment and then tested for various tests like Functional testing, Performance testing.Once these tests are successfull, We then Deploy the Original artifacts to Production server(Release step).
 Here, We deployed artifacts two times(one for testing and one for Production server).
 
+Plugin needed for Automated Deploymnt - D"eploy Plugin"
+
 This entire process is automated one.
 
 Setting up Jenkins on Tomcat:
