@@ -106,5 +106,15 @@ Triggering build via email - needs Plugin : Poll Mailbox trigger. set this optio
 
 Build Monitor View - Provides highly visible status view of jobs. needs plugin - "Build Monitor View". We can select jobs for this view.
 
+Aborting a standalone build: by clicking [x] icon from the UI.
+Aborting a Pipeline build:
+  Pipeline jobs can by stopped by sending an HTTP POST request to URL endpoints of a build.
+- BUILD ID URL/stop - aborts a Pipeline.
+- BUILD ID URL/term - forcibly terminates a build (should only be used if stop does not work).
+- BUILD ID URL/kill - hard kill a pipeline. This is the most destructive way to stop a pipeline and should only be used as a last resort.
+If your build isn’t aborting-  http://yourserver/jenkins/threadDump
+
+
+
 
 
