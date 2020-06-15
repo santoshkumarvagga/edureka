@@ -114,7 +114,10 @@ Aborting a Pipeline build:
 - BUILD ID URL/kill - hard kill a pipeline. This is the most destructive way to stop a pipeline and should only be used as a last resort.
 If your build isn’t aborting-  http://yourserver/jenkins/threadDump
 
-
-
-
+More on Pipeline:
+* Jenkins Pipeline - Jenkins Pipeline is a suite of plugins that supports implementing and integrating continuous delivery pipelines into Jenkins.
+* To use Jenkins Pipeline, you will need:
+    - Jenkins 2.x or later
+    - Pipeline plugin (installed as part of suggested plugins while initial jenkins setup)
+    - 
 
