@@ -58,6 +58,10 @@ The advantage of this process is in a multideveloper environemnt, suppose if a c
 
 * Continuous Delivery - If build is succesfull with result as build artifacts(like website, app, exe), then Jenkins will perform some Testing over this successful build artifacts, like Unit testing, User-Acceptance testing and Performance Testing. If all tests are successfull, it will deploy the tested build artifact to Live production environment. If all this goes well, it will notify as Buils Success in Build Notification. Else notifies build failed at that point of bug with logs.
 
+* Automated Deployment - Process of automating deployment process in a continuous delivery system. i,e. BUILD -> DEPLOY -> TEST -> RELEASE
+i,e. Once Jenkins Polls the changes from VCS(like git), it will build it. The result will be Project artifacts(like .war files). These Artifacts are later Deployed for Testing Environment and then tested for various tests like Functional testing, Performance testing.Once these tests are successfull, We then Deploy the Original artifacts to Production server(Release step).
+Here, We deployed artifacts two times(one for testing and one for Production server).
+
 This entire process is automated one.
 
 Setting up Jenkins on Tomcat:
@@ -73,7 +77,7 @@ Building Jenkins Pipeline - https://opensource.com/article/19/9/intro-building-c
 
 To access jenkins commands cli reference - localhost:8080/cli
 
-To setup a Delivery pipeline : 
+To setup a Delivery pipeline: 
 1) chain required jobs: with upstream and downstream jobs
 2) install "delivery pipeline plugin"
 3) Create a new view from jenkins dashboard, view type - Delivery pipeline view.
