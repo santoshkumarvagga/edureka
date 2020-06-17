@@ -121,3 +121,17 @@ More on Pipeline:
     - Pipeline plugin (installed as part of suggested plugins while initial jenkins setup)
     - 
 
+
+Sample Pipeline Script:
+
+pipeline {
+  agent any
+  stages {
+    stage('Stage 1') {
+      steps {
+        echo 'Hello world!'
+      }
+    }
+  }
+}
+
