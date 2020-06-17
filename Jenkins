@@ -137,7 +137,7 @@ pipeline {
 		always{
 			echo 'executed at any cost'
 		}
-		Success{
+		success{
 			echo 'exceuted only on success'
 		}
 		failure{
