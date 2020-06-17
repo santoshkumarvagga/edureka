@@ -25,7 +25,7 @@ class Hey(unittest.TestCase):
 
 	@classmethod
 	def tearDownClass(cls):
-		print("Leaving the class")
+		print("Leaving the class..")
 
 
 Hey()
