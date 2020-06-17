@@ -133,5 +133,22 @@ pipeline {
       }
     }
   }
+  post{
+		always{
+			echo 'executed at any cost'
+		}
+		Success{
+			echo 'exceuted only on success'
+		}
+		failure{
+			echo 'executed only if failed'
+		}
+		unstable{
+			echo 'executed only if some of the tests are broken in the build'
+		}
+		changed{
+			echo 'executed only if state of the pipeline has changed'
+			echo 'like, if build is failing in last attempt, but now is success'
+		}
+	}
 }
-
