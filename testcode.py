@@ -2,7 +2,7 @@ import unittest
 
 
 class Hey(unittest.TestCase):
-	a = 40
+	a = 4
 	b = 5
 
 	@classmethod
@@ -13,19 +13,18 @@ class Hey(unittest.TestCase):
 		print("Starting Testing of a function")
 
 	def sum(self):
-		print("Sum now is: ",self.a + self.b)
 		return self.a + self.b
 
 	def test_validate(self):
 		'''Testcase to test sum() function'''
-		assert self.sum() == 45, 'sum failed'
+		assert self.sum() == 9, 'sum failed'
 
 	def tearDown(self):
 		print("Finsihed Testing")
 
 	@classmethod
 	def tearDownClass(cls):
-		print("Leaving the class..")
+		print("Leaving the class")
 
 
 Hey()
