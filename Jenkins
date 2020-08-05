@@ -1,3 +1,22 @@
+Continuous Integration:
+
+	The practice of automatically building and unit testing an entire application frequently, ideally on every source code check-in.
+
+Continuous delivery:
+
+	The practice of deploying every build to a production-like  environment and performing automated integration and acceptance testing.
+
+Continuous Deployment:
+
+	The practice of automatically deploying every build to production after it passes its automated tests.
+	
+Benefits of CI/CD (a pipeline):
+ 
+	Empowering teams
+	Lowered Cycle time(time from code commit to running in production)
+	Better Security 
+	More time to be productive (more time for feature development)
+------------------------------------------------------------------------------------------------------------------------------------
 Basic linux command cheat sheet: https://opensource.com/sites/default/files/gated-content/cheat_sheet_linux_common_commands.pdf
 
 Pre-requisite : Java should be pre-installed. 
